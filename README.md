@@ -12,7 +12,7 @@ Group A6
 brief explanation of the company and data challenges.
 
 # Conceptual Model
-PNG of the model plus a short English explanation of the entities & relationships.
+The PNG is attached under Project Model.png. Product is the most complicated and central entity, including the primary SKU number and other product details. Each product must also have exactly one associated vendor, which in turn must have at least one vendor representative. Many products may also be linked to many orders, and the in-between entity is called line item. Line items are indentified by their id number, and they always have foreign order id and and product id keys. Each order may have up to 1 associated discount, identified by a name and containing a percent off the order. Each order is associate with exactly one customer, who is identified by an id and also has a name, email, and customer type (based on their place in the loyalty program). Each order must also have gone through an employee, identified by their reference number, who also has a manager, identified by their reference number. Because the managers are not also employees facilitating their own orders, this is not a recursive relationship.
 
 # Data Quality Assessment
 identify and explain the main data quality issues in the source file.
