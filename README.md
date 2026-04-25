@@ -51,7 +51,6 @@ Ninth, several fields had missing values. In the sales data, some rows were miss
 Overall, the initial spreadsheets were useful as raw business exports but were not reliable enough for direct relational database use. The major improvements in the final model were normalization, standardization of identifiers and categories, conversion of text-based numeric values into proper decimal or integer fields, separation of embedded customer and vendor representative information, and clearer foreign-key relationships among orders, line items, products, vendors, employees, managers, customers, and discounts.
 
 # Data Cleaning Process
-# Data Cleaning Process
 
 To transform the original Northline Outfitters spreadsheets into a database-ready format, our group focused on standardization, attribute splitting, data type conversion, and normalization.
 
